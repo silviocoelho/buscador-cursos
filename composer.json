@@ -1,0 +1,26 @@
+{
+    "name": "grupo_contati/buscador-cursos",
+    "description": "Pacote buscador de cursos",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "GrupoContati\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Silvio Coelho",
+            "email": "silvio.coelho@grupocontati.com.br"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/dom-crawler": "^6.1",
+        "symfony/css-selector": "^6.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "^3.7",
+        "phan/phan": "^5.3"
+    }
+}
